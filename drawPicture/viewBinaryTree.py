@@ -101,7 +101,7 @@ def drawBinaryTree(r,nodeType=dict(boxstyle="round", fc=(1.0, 0.7, 0.7), ec="non
     for i in range(1, len(duiListForR)):
         if duiListForR[i]:
             ax1.annotate(duiListForR[i],va="center", ha="center",xy= (finPos[i][0], finPos[i][1]),bbox=nodeType)##画出这个点
-
+    plt.show()
 
 if __name__ == '__main__':
     r = myOwnTree.BinaryTree("a")
